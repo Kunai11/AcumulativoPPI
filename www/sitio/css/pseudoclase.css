@@ -1,0 +1,34 @@
+a{
+	color: #333333;
+	text-decoration:none;
+}
+a:link{
+	color: #900;
+	
+}
+a:visited{
+	color: #003399;
+}
+a:hover{
+	background-color: #CCC;
+}
+
+input:focus{
+	/*border-color: #333333;*/
+	background-color: #000;
+	color: #FFF;
+}
+input:hover{
+	background-color: #FF0000;
+}
+/*Primer hijo(El primero de la lista)*/
+ul li:first-child{
+	background-color: #090;
+}
+/*Cambia de color ultimo hijo(El ultimo de la lista)*/
+ul li:last-child{
+	color: #6633cc;
+}
+ul li:nth-child(2){
+color: #FF6;
+}

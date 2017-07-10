@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi Primer Pagina</title>
+<style type="text/css">
+	header{
+		background-color:#333;
+		color:#fff;
+	}
+	</style>
+</head>
+<body>
+<!--&aacute Para acentuar vocal -->
+<header>Encabezado de la p&aacute;gina en HTML5</header>
+<!-- nav Para crear menu-->
+<nav>
+<!--ul Para crear lista -->
+	<ul>
+		<li>Inicio</li>
+		<li>Contactos</li>
+	</ul>
+</nav>
+<!-- article Para introducir contenido de la pagina-->
+<section>
+<article>
+	Este es el contenido de la p&aacute;gina
+</article>
+<aside>Listado de la derecha</aside>
+<!-- hgroup Para diferentes tipos de titulo-->
+<hgroup>
+<h1>Bienvenidos</h1>
+<h2>Bienvenidos</h2>
+</hgroup>
+<hgroup>
+<h3>Bienvenidos</h3>
+<h4>Bienvenidos</h4>
+<h1>Otro h1</h1>
+</hgroup>
+
+
+<!-- Introduce archivo de audio con controles -->
+<!-- Autoplay para que se reprodusca cuando carge la pagina -->
+<!-- loop para que la el sonido siga se reinicie en autoplay al terminar -->
+<audio controls="controls" preload="auto" loop="loop">
+	<source src="sonidos/song.mp3" type="audio/mp3"/>
+	<source src="sonidos/song.ogg" type="audio/ogg"/>
+</audio>
+<h3>Inputs</h3>
+<Input type="text"/>
+<br/>
+<Input type="search"/>
+<br/>
+<Input type="number"/>
+<br/>
+<Input type="range"/>
+<br/>
+<Input type="color"/>
+<br/>
+<Input type="tel"/>
+<br/>
+<Input type="email"/>
+<br/>
+<Input type="date"/>
+<Input type="month"/>
+<Input type="week"/>
+<Input type="time"/>
+<Input type="datetime"/>
+<Input type="datetime-local"/>
+<br/>
+<!-- Crea un lista con los parametros pre insertados -->
+<Input list="canales">
+<datalist id="canales">
+<option value="TV Centro"/>
+<option value="Canal 5"/>
+</datalist>
+</Input>
+<!-- Muestra Una lista desplegable -->
+<details open>
+<sumary></sumary>
+Contenido del primer parcial
+</details>
+<details>
+<sumary></sumary>
+Contenido de otros
+</details>
+<p>Comienza el parrafo
+<figure>
+<img src="imagenes/logo.png">
+<figcaption>Logo de DICOVAZ</figcaption>
+</figure>
+Continua el parrafo
+</p>
+<p>Texto normal <mark >Texto Resaltado</mark></p>
+<p>Texto normal <mark style="background-color:red;">Texto Resaltado</mark></p>
+
+<progress value="50" max="100"></progress>
+<br/>
+<progress value="10" max="100"></progress>
+<br/>
+<meter value="5" max="10" min="0">Tu navegador no reconoce meter</meter>
+<p> Temperaturas</p>
+<P>
+22 Grados <meter value="22" max="100" min="-20" high="35" low="10" optimus="20"> Tu navegador no reconoce meter
+</meter>
+37 Grados <meter value="37" max="100" min="-20" high="35" low="10" optimus="20"> Tu navegador no reconoce meter
+</meter>
+0 Grados <meter value="0" max="100" min="-20" high="35" low="10" optimus="20"> Tu navegador no reconoce meter
+</meter>
+</P>
+</section>
+<h2>Output HTML5</h2>
+<p>Output</p>
+<p>
+<form oninput="resultado.value=parseInt(x.value)+parseInt(y.value)">
+<input type="number" name="x">
+<input type="number" name="y">
+<Output name="resultado" for="x y"></Output>
+</form>
+</p>
+<p>Video</p>
+<p>
+	<video width="320" height="240" controls="controls" poster="imagenes/logo.png">
+		<source src="videos/video.mp4" type="video/mp4"/>
+		<source src="videos/video.ogg" type="video/ogg"/>
+	</video>
+</p>
+<p>Atributos</p>
+<p draggable="true">Parrafo ejemplo arrastrar</p>
+<p contenteditable="true" spellcheck="true">Parrafo editable</p>
+<p hidden>Parrafo oculto</p>
+</body>
+</html>

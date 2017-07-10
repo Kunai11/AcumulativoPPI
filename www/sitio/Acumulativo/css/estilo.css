@@ -1,0 +1,78 @@
+#encabezado{
+	margin-top: 0px;
+	background-color: #B94C35;
+	height: 110px;				
+}
+
+.victorias{
+	background-color: #EE7D64;
+	height: 70px;
+	width: 200px;
+	margin-left: 500px;
+border-radius: 0px 0px 10px 10px;
+	padding-left: 10px;
+	border-style: solid;
+	border-color: white;
+	border-top: 0px;
+	border-width: 1px
+
+
+}
+h2{
+	text-align:center; 
+	font-size: 100%;
+color: white;
+font-family: ;
+	padding-top: 30px
+ 
+}
+
+#formulario{
+	margin-top: 50px;
+}
+
+#usuario{
+margin: 50px;
+width: 300px;
+height: 50px;	
+border-radius: 5px 5px 5px 5px;
+}
+
+#pass{
+width: 300px;
+height: 50px;
+border-radius: 5px 5px 5px 5px;	
+}
+
+#entrar{
+margin: 50px;
+width: 100px;
+height: 50px;
+border-radius: 5px 5px 5px 5px;
+}
+
+#limpiar{
+border-radius: 5px 5px 5px 5px;
+width: 100px;
+height: 50px;
+}
+
+#form{
+	width: 800px;
+}
+
+
+
+#parrafo{
+margin-top: -280px;
+margin-left: 800px;
+margin-right: 200px;
+}
+ 
+ p{
+ 	text-align: justify;
+ }
+ h1{
+ 	font-size: 20pt;
+ 	font-family: arial;
+ }

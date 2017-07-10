@@ -1,0 +1,13 @@
+.prueba{
+	height: 200px;
+	width: 200px;
+	background-color: #003333;
+	/*-webkit-transform:rotate(20deg);
+	-moz-transform:rotate(20deg);
+	-o-transform:rotate(20deg);*/
+	border-radius: 20%;
+	-webkit-transition:-webkit-transform .8s ease-in-out;
+}
+.prueba:hover{
+	-webkit-trasform:rotate(360deg);
+}
